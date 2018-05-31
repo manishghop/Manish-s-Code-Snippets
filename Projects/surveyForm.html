@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <meta charset="UTF-8">
+    <link href="css/surveyForm.css" rel="stylesheet">
+    <head>
+        <title>
+            Survey 2018
+        </title>
+        <body>
+            <h1 class=" heading ">Survey Form</h1>
+            <div class="container">
+                <div class="topText">Let us know how can we improve</div><!--div for topText-->
+                <form>
+                    <div class="name">*Name<input type="text" required placeholder="Enter Your Name"></div><!--div for name-->
+                        <div class="email">*Email<input type="email" required placeholder="Enter Your Email"></div>
+                            <div class="age">*Age<input type="number" required placeholder="Enter Your Age"></div>
+                                <div class="choose">Which option best describes your current role?<select >
+                                    <option disabled value>Select an option</option><option selected="selected">Student</option>
+                                <option>Full time Job</option>
+                            <option>Full time learner</option>
+                        <option>Prefer not to say</option>
+                    <option>Other</option></select></div><!---div for choose-->
+                    <div class="optionsRadio">* How likely is that you would recommend freeCodeCamp to a friend?</div><!--div for optionsRadio-->
+                        <ul class="right">
+                      <li id="li1">  <input type="radio" required><label>Definetely</label></li>
+                      <li id="li2"> <input type="radio" required><label>Maybe</label></li> 
+                        <li id="li3"><input type="radio" required><label>Not Sure</label></li>
+                    </ul>
+                    
+                    <div class="surveyChoose">What do you like most in FCC:<select>
+                        <option disabled value selected="selected">Select Your Option</option>
+                        <option>Challenges</option>
+                        <option>Projects</option>
+                        <option>Community</option>
+                        <option>Open Source</option>
+                    </select></div> <!--div for surveyChoose-->
+                    <div class="optionsSquared">Things that should be improved in the future
+                            (Check all that apply):
+                            <fieldset>
+                            <ul class="optionsSq">
+                           <li> <input type="checkbox"><label>Front-end Projects</label></li>
+                           <li> <input type="checkbox"> <label>Back-end Projects</label></li>
+                            <li><input type="checkbox"><label> Data Visualization</label></li>
+                            <li><input type="checkbox"><label>Challenges</label></li>
+                            <li><input type="checkbox"><label> Open Source Community</label></li>
+                           <li> <input type="checkbox"><label>Gitter help rooms</label></li>
+                            <li><input type="checkbox"><label> Videos</label></li>
+                           <li> <input type="checkbox"><label>City Meetups</label></li>
+                           <li> <input type="checkbox"><label>Wiki</label></li>
+                            <li><input type="checkbox"><label>Forum</label></li>
+                            <li><input type="checkbox"><label>Additional Courses</label></li>
+                        </ul>
+                    </fieldset>
+                        </div><!--div for optionsSquared-->  
+                        <div class="comments">Any Comments or Suggestions?<textarea class="input-field" placeholder="Enter Your Comment Here..."></textarea> 
+                            </div><!--div for comments-->      
+                            <button id="submit">Submit</button>    
+                </form>
+            </div><!--div for container-->
+        </body>
+    </head>
+</html>

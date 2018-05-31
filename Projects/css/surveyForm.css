@@ -1,0 +1,93 @@
+body{
+    background-color: #92c1d6;
+    font-family: cursive;
+}
+.container{
+    background-color: white;
+    margin: 2em 17.5em 2em 17.5em;
+}
+.topText{
+    text-align: center;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.heading{
+    text-align: center;
+}
+.name{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.age{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.email{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.choose{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin:0px 5em 0px 5em;
+}
+.optionsRadio{
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    vertical-align: top;
+    padding: 5px;
+    margin:10px 0px 0px 0px;
+    
+}
+.surveyChoose{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin:0px 10em 0px 10em;
+}
+.optionsSquared{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin:0px 5em 0px 5em;
+}
+.comments{
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+    margin:5px 5px 0px 5px;
+    vertical-align: middle;
+    width:28%;
+    height:50px;
+}
+#submit{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin:30px 25em 0px 25em;
+    
+}
+ul{
+    list-style-type: none;
+}
+.right{
+  
+    display: inline-block;
+    margin-top:0px;
+   padding:15px 0px 0px 0px;
+    width: 48%;
+    vertical-align: middle;
+    text-align: left;
+}
+.surveyChoose select{
+    margin-left:2em;
+}
+.input-field{
+    display: inline-block;
+    height: 50px;
+    width:20em;
+    margin-left:22em;
+    text-align: left;
+}
